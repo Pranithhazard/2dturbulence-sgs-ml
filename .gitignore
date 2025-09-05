@@ -1,0 +1,24 @@
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv
+venv/
+.envrc
+
+# notebooks
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# data & outputs
+data/*
+!data/.gitkeep
+runs/
+outputs/
+checkpoints/
+models/
+
+# OS/Editor
+.DS_Store
+.vscode/
